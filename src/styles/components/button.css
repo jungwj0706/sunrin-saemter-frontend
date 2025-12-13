@@ -1,0 +1,38 @@
+.cta-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: var(--font-size-md);
+  border-radius: 1.562rem;
+  font-weight: bold;
+  cursor: pointer;
+  flex-direction: row;
+}
+
+.search-icon {
+  width: 16px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-icon img {
+  width: 100%;
+  height: auto;
+}
+
+/* Login Button (Header) */
+.login-button {
+    background-color: transparent;
+    color: #000;
+    border: 0.0625rem solid #000;
+    padding: 0.5rem 0.937rem;
+    font-size: var(--font-size-sm);
+    border-radius: 1.25rem;
+    white-space: nowrap;
+}

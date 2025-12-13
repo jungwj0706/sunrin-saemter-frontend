@@ -1,0 +1,33 @@
+.error-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    padding: 20px;
+}
+
+.error-page-container h1 {
+    font-size: var(--font-size-xl);
+    color: var(--primary-color);
+    margin-bottom: var(--spacing-sm);
+}
+
+.error-page-container p {
+    font-size: var(--font-size-md);
+    margin-bottom: var(--spacing-md);
+    max-width: 600px;
+}
+
+.error-page-container .back-home-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: #fff;
+    border-radius: var(--border-radius-md);
+    transition: background-color 0.3s ease;
+    font-weight: 600;
+}
